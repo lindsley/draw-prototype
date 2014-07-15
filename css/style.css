@@ -17,7 +17,9 @@ http://www.opensource.org/licenses/gpl-license.php
 
 
 /* Sitewide Styles #####*/
-
+.breadcrumb {
+    background: #fff;
+}
 
 /* Page Layouts #####*/
 
@@ -25,7 +27,7 @@ http://www.opensource.org/licenses/gpl-license.php
 
 .activity-main-col {}
 .activity-main-col .activity-title {
-    padding: 10px;
+    padding: 2px 10px 10px 10px;
     width: 80%;
     margin: 0 auto;
     position: relative;
@@ -34,9 +36,10 @@ http://www.opensource.org/licenses/gpl-license.php
     text-align: center;
     background: #fff;
 }
-.activity-main-col p {
-    font-family: Georgia;
-    font-size: 18px;
-    line-height: 162%;
+.activity-main-col p, .activity-main-col ol {
+    font: normal 18px/30px "Georgia Pro", georgia, serif;
     font-weight: lighter;
+}
+.activity-main-col ol li {
+    padding-bottom: 20px;
 }
