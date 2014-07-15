@@ -1,0 +1,42 @@
+/*
+Theme Name: DRAW Theme (beta)
+Theme URI: www.tomlindsley.com
+Description: A theme for academic digital repositories 
+Version: 1.0
+Author: Tom Lindsley
+Author URI: http://www.tomlindsley.com
+Tags: Digital Repository, Education, Composition, Digital Humanities
+
+This theme is based on the stripped theme by Shawn Cope and customized further by Tom Lindsley
+
+The CSS, XHTML and design is released under GPL:
+http://www.opensource.org/licenses/gpl-license.php
+*/
+
+/* Bootsrap Overrides #####*/
+
+
+/* Sitewide Styles #####*/
+
+
+/* Page Layouts #####*/
+
+/* - single.php - */
+
+.activity-main-col {}
+.activity-main-col .activity-title {
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    margin-top: -40px;
+    text-align: center;
+    background: #fff;
+}
+.activity-main-col p {
+    font-family: Georgia;
+    font-size: 18px;
+    line-height: 162%;
+    font-weight: lighter;
+}
